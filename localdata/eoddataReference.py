@@ -1,4 +1,4 @@
-def yahooExchange(exchange=None,
+def eoddataReference(exchange=None,
                 columns=None):
 
     import sys, os, platform
@@ -20,8 +20,8 @@ def yahooExchange(exchange=None,
     from datetime import date
 
     #--- default varaibles
-    dsource = 'yahoo'
-    dtype = 'exchange'
+    dsource = 'eoddata'
+    dtype = 'reference'
     dcolumns = ['symbol','name','industry','max_date','min_date','records']
     dexchanges = ['AMEX','NASDAQ','NYSE','OTCB']
 

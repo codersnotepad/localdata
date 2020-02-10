@@ -1,4 +1,4 @@
-def yahooPrice(exchange=None,
+def eoddataPrice(exchange=None,
                 symbols=None,
                 startDate=None,
                 endDate=None,
@@ -26,11 +26,11 @@ def yahooPrice(exchange=None,
     from datetime import date
 
     #--- default varaibles
-    dsource = 'yahoo'
+    dsource = 'eoddata'
     dtype = 'price'
     #dfrequency = ['day','month','quarter']
     dfrequency = ['day']
-    dcolumns = ['symbol','open','high','low','close','adjclose','volume']
+    dcolumns = ['symbol','open','high','low','close','volume']
     dexchanges = ['AMEX','NASDAQ','NYSE','OTCB']
 
     #--- variable validation
